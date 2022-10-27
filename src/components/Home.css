@@ -8,6 +8,7 @@
   font-family: "Plus Jakarta Sans";
 }
 .padding {
+
   padding-left: 20%;
 }
 .box-shad {
@@ -57,6 +58,7 @@
   }
 }
 
+
 @-ms-keyframes fadeIn {
   0% {
     opacity: 40;
@@ -65,6 +67,7 @@
     opacity: 1;
   }
 }
+
 
 .fade-in-2 {
   animation: fadeIn ease 10s;
@@ -111,9 +114,11 @@
   }
 }
 
+
 @-ms-keyframes fadeIn {
   0% {
     opacity: 0;
+
   }
   100% {
     opacity: 1;
