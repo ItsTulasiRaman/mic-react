@@ -22,7 +22,7 @@
     }
     @keyframes fadeIn {
     40% {opacity:0;}
-    1400% {opacity:1;}
+    100% {opacity:1;}
     }
 
     @-moz-keyframes fadeIn {
