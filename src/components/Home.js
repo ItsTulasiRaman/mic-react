@@ -5,7 +5,9 @@ import homeCardsArrow from "./ui/homeCardsArrow.png";
 const Home = () => {
   return (
     <div className="home-background">
-      <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_500px] lg:grid-cols-[1fr_1fr_1fr_700px] gap-10 items-center   w-100 h-screen ">
+
+      <div className="grid grid-rows-[500px_200px] md:grid-rows-1 md:grid-cols-[1fr_1fr_500px] lg:grid-cols-[1fr_1fr_1fr_700px] md:gap-10 items-center   w-100 h-screen ">
+
         <div className="flex flex-col h-34 w-145 m-auto  text-center md:text-left md:p-[10%] md:col-span-2 lg:col-span-3">
           <div className="text-4xl md:text-5xl lg:text-6xl font-extrabold ">
             <h1>Together We Learn</h1>
@@ -23,8 +25,10 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className=" flex relative  items-center  ">
-          <div className="w-1/2 ml-40 md:ml-10 lg:ml-[50px] shadow-[0_4px_4px_rgba(35, 40, 105, 0.08)] ">
+
+        <div className=" md:flex relative  items-center  ">
+          <div className=" max-w-sm md:max-w-none m-[10%] md:w-1/2 md:ml=[20%] md:ml-10 lg:ml-[50px] box-shad ">
+
             <img
               src={cardMoviesCode}
               alt="Hero cards for home page code "
@@ -38,7 +42,9 @@ const Home = () => {
               className="md:w-9/12 lg:w-12/12"
             />
           </div>
-          <div className=" absolute top-[250px] right-[100px] md:top-40 md:right-40 lg:top-[250px] right-[200px] z-10 w-1/2 ">
+
+          <div className="max-w-sm md:max-w-none absolute w-9/12 md:w-1/2 top-[250px] right-[0px] md:top-40 md:right-40 lg:top-[250px] right-[200px] z-10 w-1/2 ">
+
             <img src={cardMoviesResult} alt="Hero cards for home page result" />
           </div>
         </div>
@@ -47,4 +53,6 @@ const Home = () => {
   );
 };
 
+
 export default Home;
+
